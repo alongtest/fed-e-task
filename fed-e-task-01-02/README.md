@@ -31,7 +31,7 @@ v8增量标记原理就是将标记过程分为一个个的子标记过程，每
 ## 代码题1
 
 ### 1、使用fp.flowRight 重写下方函数
-![](https://github.com/alongtest/fed-e-task/blob/master/README/20200530032248596.png)
+![](../README/20200530032248596.png)
 ```
 // code/1-1.js
 const fp = require('lodash/fp');
