@@ -53,7 +53,7 @@ console.log(getFirstName(cars))
 ```
 
 ### 3、使用帮助函数_average重构averageDollarValue,使用函数组合方式
-![](/README/20200530032801868.png)
+![](../README/20200530032801868.png)
 ```
 // code/1-3.js
 const fp = require('lodash/fp');
@@ -66,7 +66,7 @@ console.log(averageDollarValue(cars));
 ```
 
 ### 4、使用flowRight实现sanitizeNames函数，返回一个下划线链接的小写字符串，把数组中的name转换，ex: sanitizeNames(["Hellow World"]) => ["hello_world"]
-![](/README/20200530033138130.png)
+![](../README/20200530033138130.png)
 ```
 // code/1-4.js
 const fp = require('lodash/fp');
@@ -81,7 +81,7 @@ console.log(sanitizeNames(["Hello World", "aLong 23"]))
 ## 代码题2
 
 ### 1、使用fp.add(x, y)和fp.map(f,x)创建一个可以让functor值增加的函数ex1
-![](/README/20200530034012135.png)
+![](../README/20200530034012135.png)
 ```
 // code/2-1.js
 const {Maybe, Container} = require('./support');
@@ -94,7 +94,7 @@ console.log(maybe.map(ex1))
 ```
 
 ### 2、实现函数ex2,可以使用fp.first获取列表第一个元素
-![](/README/20200530034424001.png)
+![](../README/20200530034424001.png)
 ```
 // code/2-2.js
 const {Maybe, Container} = require('./support');
@@ -108,7 +108,7 @@ console.log(maybe.map(ex2))
 ```
 
 ### 3、实现函数ex3,使用safeProp与fp.first找到user的名字首字母
-![](/README/20200530035015852.png)
+![](../README/20200530035015852.png)
 ```
 // code/2-3.js
 const {Maybe, Container} = require('./support');
@@ -126,7 +126,7 @@ console.log(ex3(user))
 ```
 
 ### 4、使用Maybe重写ex4, 不要有if语句
-![](/README/20200530043917015.png)
+![](../README/20200530043917015.png)
 
 ```
 // code/2-4.js
